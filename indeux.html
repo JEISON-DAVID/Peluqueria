@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Cuts Barbería Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .glass-card {
+            background: rgba(30,30,30,0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.125);
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <header class="relative h-screen parallax-bg" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://www.latercera.com/resizer/v2/S4BTB4YR55F6HG6D46OPURNN5U.JPG?quality=80&smart=true&auth=f063b8fea97e0f75348f7e383e1ddcd4e628c29fa940193fe106f19ee0810bed&width=1200&height=630');">
+        <nav class="absolute top-0 w-full p-6">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-3xl font-bold text-white tracking-wider">URBAN CUTS</h1>
+                <div class="space-x-6 text-white">
+                    <a href="#servicios" class="hover:text-yellow-500 transition">Servicios</a>
+                    <a href="#galeria" class="hover:text-yellow-500 transition">Galería</a>
+                    <a href="#contacto" class="hover:text-yellow-500 transition">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <div class="absolute inset-0 flex items-center justify-center text-center">
+            <div class="glass-card p-12 rounded-2xl max-w-2xl">
+                <h2 class="text-5xl font-bold mb-4 text-white">Barbería Profesional</h2>
+                <p class="text-xl text-gray-300">Transformación de Estilo, Experiencia Única</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="container mx-auto py-24 px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-2xl text-center transform hover:scale-105 transition">
+                <img src="https://i.pinimg.com/474x/0c/8e/18/0c8e1812cf6460a1d855468c6402d61f.jpg" class="mx-auto mb-6 rounded-full w-32 h-32 object-cover">
+                <h3 class="text-2xl mb-4 text-white">Corte Clásico</h3>
+                <p class="text-gray-300">Estilo tradicional refinado</p>
+                <p class="mt-4 text-yellow-500 font-bold">€35</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl text-center transform hover:scale-105 transition">
+                <img src="https://previews.123rf.com/images/konstantynov/konstantynov1602/konstantynov160200042/52481245-retrato-lateral-de-hombre-con-barba-guapo-en-la-peluquer%C3%ADa-profesional-barba-barbero-de-afeitado.jpg" class="mx-auto mb-6 rounded-full w-32 h-32 object-cover">
+                <h3 class="text-2xl mb-4 text-white">Barba Profesional</h3>
+                <p class="text-gray-300">Diseño y contorno preciso</p>
+                <p class="mt-4 text-yellow-500 font-bold">€25</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl text-center transform hover:scale-105 transition">
+                <img src="https://tahecosmetics.com/trends/wp-content/uploads/2023/02/corte-fade-flequillo-largo.jpg" class="mx-auto mb-6 rounded-full w-32 h-32 object-cover">
+                <h3 class="text-2xl mb-4 text-white">Peinado Moderno</h3>
+                <p class="text-gray-300">Tendencias contemporáneas</p>
+                <p class="mt-4 text-yellow-500 font-bold">€45</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Replace the entire #galeria section with this -->
+<section id="galeria" class="container mx-auto py-24 px-4">
+  <h2 class="text-4xl text-center mb-12 text-white">Nuestro Local</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="relative group overflow-hidden rounded-2xl">
+      <img src="https://www.cristianroldan.art/wp-content/uploads/2022/07/Barberia-con-Cristales-rotulados-a-mano.jpg" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <p class="text-white text-xl font-bold">Interior Principal</p>
+      </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-2xl">
+      <img src="https://i.pinimg.com/736x/c8/fc/07/c8fc072858827234f24a19fea556a059.jpg" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <p class="text-white text-xl font-bold">Área de Trabajo</p>
+      </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-2xl">
+      <img src="https://images.fresha.com/locations/location-profile-images/496977/1978213/1897ead1-ee1f-4169-a2d6-e0fe374c711a.jpg?class=width-small" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <p class="text-white text-xl font-bold">Zona de Espera</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="ubicacion" class="container mx-auto py-24 px-4 grid md:grid-cols-2 gap-12">
+        <div class="glass-card p-8 rounded-2xl">
+            <h2 class="text-3xl mb-6 text-white">Ubicación y Contacto</h2>
+            <div class="space-y-4 text-gray-300">
+                <p><strong class="text-white">Dirección:</strong> Calle Principal 123, Local 5</p>
+                <p><strong class="text-white">Teléfono:</strong> +34 612 345 678</p>
+                <p><strong class="text-white">Horario:</strong></p>
+                <ul class="list-disc pl-5">
+                    <li>Lunes a Viernes: 10:00 - 20:00</li>
+                    <li>Sábados: 09:00 - 15:00</li>
+                    <li>Domingos: Cerrado</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.693!2d-89.22011!3d13.79425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ3JzM5LjMiTiA4OVwwMCcxMS4wIlc!5e0!3m2!1ses!2ses!4v1624469076798!5m2!1ses!2ses" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                class="rounded-2xl"
+            ></iframe>
+        </div>
+    </section>
+
+    <section id="reseñas" class="container mx-auto py-24 px-4">
+        <h2 class="text-4xl text-center mb-12 text-white">Opiniones de Clientes</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-2xl">
+                <p class="italic text-gray-300 mb-4">"Un corte impecable. Los mejores profesionales que he encontrado."</p>
+                <div class="flex items-center">
+                    <img src="https://tahecosmetics.com/trends/wp-content/uploads/2023/02/mohicano-personalizado.jpg" class="w-12 h-12 rounded-full mr-4">
+                    <p class="font-bold text-yellow-500">Carlos R.</p>
+                </div>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <p class="italic text-gray-300 mb-4">"Ambiente increíble y un servicio de primera. Siempre vuelvo aquí."</p>
+                <div class="flex items-center">
+                    <img src="https://tahecosmetics.com/trends/wp-content/uploads/2023/02/mohicano-personalizado.jpg" class="w-12 h-12 rounded-full mr-4">
+                    <p class="font-bold text-yellow-500">Miguel S.</p>
+                </div>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <p class="italic text-gray-300 mb-4">"Profesionalidad y estilo en cada detalle. Altamente recomendado."</p>
+                <div class="flex items-center">
+                    <img src="https://tahecosmetics.com/trends/wp-content/uploads/2023/02/mohicano-personalizado.jpg" class="w-12 h-12 rounded-full mr-4">
+                    <p class="font-bold text-yellow-500">Juan P.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-gray-800 py-12 text-center">
+        <p class="text-white">© 2024 Urban Cuts Barbería. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
